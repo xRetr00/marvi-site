@@ -1,0 +1,54 @@
+brand:
+  name: Marvi
+  tagline: Present, when it matters.
+  personality: [restrained, technical, local-first, quietly capable]
+  industry: Windows personal intelligence
+  audience: Windows users evaluating an open-source voice and vision assistant
+colors:
+  primary: "#e7e7e3"
+  secondary: "#858990"
+  accent: "#147ec1"
+  neutral: {50: "#fafaf8", 500: "#858990", 800: "#202124", 900: "#0a0a0b", 950: "#050505"}
+  dark_mode: true
+  dark_mode_strategy: separate-palette
+typography:
+  heading_font: Space Grotesk
+  body_font: DM Mono
+  mono_font: DM Mono
+  base_size: 16px
+  scale_ratio: 1.25
+  line_height: 1.55
+  heading_weight: 500
+  font_source: google-fonts
+layout:
+  max_width: 1440px
+  grid: asymmetric two-column
+  spacing_unit: 4px
+  border_radius: 0px
+  container_padding: 5vw
+  section_gap: 130px
+animation:
+  philosophy: minimal
+  default_duration: 180ms
+  default_easing: cubic-bezier(0.16, 1, 0.3, 1)
+  entrance_style: fade-in
+  hover_style: color-shift
+  scroll_animations: false
+  reduce_motion: true
+  library: css-only
+  page_transitions: false
+performance:
+  target_lcp: 2.5s
+  target_fid: 100ms
+  target_cls: 0.1
+  js_budget: 100KB
+  animation_fps: 60
+  webgl_allowed: false
+  particle_limit: 0
+  intersection_observer: false
+inspiration:
+  mood: [monochrome, terminal-constructed, precise, calm]
+  avoid: [generic AI gradients, glassmorphism, fake CRT noise, corporate stock art]
+  frameworks: [Next.js, CSS]
+  icon_set: lucide
+
